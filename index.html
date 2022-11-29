@@ -1,14 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Kugo</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+          <div class="navbar-top">
+              <ul class="header-nav-top">
+                <li class="navbar-top-item">
+                 <a href="#" class="navbar-top-link">Сервис</a>
+                 </li>
+                 <li class="navbar-top-item">
+                 <a href="#" class="navbar-top-link">Сотрудничество</a>
+                 </li>
+                 <li class="navbar-top-item">
+                 <a href="#" class="navbar-top-link">Заказать звонок</a>
+                 </li>
+                 <li class="navbar-top-item navbar-top-logo-links">
+                   <a href="#" class="navbar-top-logo-link">
+                     <svg class="social-icon"  width="12" height="12">
+                       <use href="img/sprite.svg#viber"></use>
+                     </svg>
+                   </a>
+                   <a href="#" class="navbar-top-logo-link">
+                     <svg class="social-icon"  width="12" height="12">
+                       <use href="img/sprite.svg#whats"></use>
+                     </svg>
+                   </a>
+                   <a href="#" class="navbar-top-logo-link">
+                     <svg class="social-icon"  width="12" height="12">
+                       <use href="img/sprite.svg#tg"></use>
+                     </svg>
+                   </a>
+                 </li>
+               </ul>
+               <a href="tel:+78005055461" class="navbar-phone">+7 (800) 505-54-61</a>
+          </div>
+      </div>
+      <div class="navbar-bottom">
+        <div class="container">
+          <div class="navbar-bottom-wrapper">
+        <h3 class="navbar-logo">KUGOO</h3>
+        <a href="#" class="button navbar-button">
+         <div class="navbar-button-lines-wrapper">
+          <span class="button-line"></span>
+          <span class="button-line"></span>
+          <span class="button-line"></span>
+         </div>
+          <p class="button-text">Каталог</p>
+        </a>
+        <form class="search-form" action="#" >
+          <input name="search" placeholder="Искать самокат KUGOO" type="search" class="input-search">
+          <button class="button-search"type="submit">
+            <svg class="social-icon"  width="16" height="16">
+              <use href="img/sprite.svg#loop"></use>
+            </svg>
+          </button>
+        </form>
+        <div class="navbar-basket-wrapper">
+         <a href="#" class="navbar-icon">
+         <img src="img/scales.png" width="20" height="20" alt="" class="scales">
+         </a>
+         <a href="#" class="navbar-icon">
+          <svg class="social-icon"  width="20" height="20">
+            <use href="img/sprite.svg#heart"></use>
+          </svg>
+         </a>
+         <a href="#" class="basket-link">
+          <svg class="social-icon"  width="20" height="20">
+            <use href="img/sprite.svg#basket"></use>
+          </svg>
+          <span class="basket-link-text">Корзина</span>
+         </a> 
+         
+        </div>
+      </div>
+      <!-- navbar-bottom-wrapper  -->
+      </div>
+      <!-- container  -->
+      </div>
+      <!-- navbar-bottom  -->
+
+      </nav>
+      
+  </header>
+  <main class="main">
+  <div class="main-content">
+    <div class="location-content-wrapper">
+      <svg class="social-icon"  width="15" height="15">
+        <use href="img/sprite.svg#location"></use>
+      </svg>
+      <address class="address">Восточно-Кругликовская улица, 86 </address>
+      
+      <span class="work-time" >Вт - Сб 10:00 - 20:00</span>
+    </div>
+    <h1 class="main-title">
+      Запишитесь на бесплатный <br> тест-драйв электросамокатов
+    </h1>
+    <p class="main-text">
+      в Москве без ограничения по времени
+    </p>
+    <ul class="main-features">
+      <li class="main-features-item">
+         <div class="features-logo">
+          <svg class="features-icon"  width="16" height="16">
+            <use href="img/sprite.svg#scooter"></use>
+          </svg>
+        </div> 
+        <p class="features-text">Поймете, какая модель вам подходит</p>
+      </li>
+      <li class="main-features-item">
+       <div class="features-logo">
+        <svg class="features-icon"  width="16" height="16">
+          <use href="img/sprite.svg#light"></use>
+        </svg>
+      </div> 
+     
+      <p class="features-text">Проверите лучшие самокаты в деле</p>
+
+      </li>
+    </ul>
+    <button class="button main-button">
+      <span class="main-button-text">Записаться</span>
+    </button>
+  </div> 
+  </main>
+  
   <script src="js/main.js"></script>
 </body>
 </html>
