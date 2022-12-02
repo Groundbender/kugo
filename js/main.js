@@ -18,3 +18,37 @@ mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
+
+
+
+const swiper = new Swiper('.swiper', {
+  speed: 400,
+  slidesPerView: 3,
+  SpaceBetween: 30, 
+  // Navigation arrows
+  navigation: {
+    nextEl: '.sliper-button-next',
+    prevEl: '.sliper-button-prev',
+  },
+  breakpoints: {
+    320: {
+     
+      slidesPerView: 1,
+      SpaceBetween: 10, 
+    },
+    576: {
+     
+        slidesPerView: 2,
+        SpaceBetween: 10, 
+      },
+    
+     
+   
+  },
+  
+
+ 
+});
+
+
+
