@@ -1038,8 +1038,8 @@ text-decoration: none;
 .modal.is-open .modal-dialog {
   transform: translateY(0);
   opacity: 1;
-  max-height: 100vh;
-  overflow: auto;
+  /* max-height: 100vh;
+  overflow: auto; */
   
 }
 .modal-dialog {
@@ -1050,7 +1050,6 @@ text-decoration: none;
   transform: translateY(-10%);
   opacity: 0;
   transition: transform 0.3s, opacity 0.3s;
-  height: 590px;
   max-width: 790px;
 
 
@@ -1072,6 +1071,20 @@ text-decoration: none;
 .modal-content {
   max-width: 286px;
 }
+.modal-input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+.modal-input-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5D6C7B;
+
+} 
 .modal-title {
   font-style: normal;
   font-weight: 600;
@@ -1101,7 +1114,13 @@ text-decoration: none;
   margin-bottom: 86px;
 
 }
-
+.modal-notify {
+  max-width: 228px;
+}
+.modal-woman {
+  align-self: center;
+  margin-top: 8px;
+}
 
 
 

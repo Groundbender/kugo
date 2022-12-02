@@ -234,7 +234,7 @@
 
       </li>
     </ul>
-    <button class="button main-button">
+    <button class="button main-button" data-toggle="modal" data-target="#feedback-modal">
       <span class="main-button-text">Записаться</span>
     </button>
   </div>
@@ -417,7 +417,7 @@
               </div>
             </div>
            <div class="button-wrapper">
-            <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+            <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
            </div>
           </div>
       </div>
@@ -485,7 +485,7 @@
               </div>
             </div>
            <div class="button-wrapper">
-            <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+            <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
            </div>
           </div>
       </div>
@@ -553,7 +553,7 @@
               </div>
             </div>
            <div class="button-wrapper">
-            <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+            <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
            </div>
           </div>
       </div>
@@ -621,7 +621,7 @@
               </div>
             </div>
            <div class="button-wrapper">
-            <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+            <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
            </div>
           </div>
       </div>
@@ -939,7 +939,7 @@
       <div class="cta-content">
          <h2 class="section-title сta-title">Нет нужной модели, которую хотите протестировать?</h2>
         
-        <form action="#"  class="cta-form"></form>
+        <form  action="handler.php" method="POST"  class="cta-form"></form>
         
 
        <p class="cta-form-text">
@@ -984,7 +984,7 @@
         <p class="footer-cta-text-mobile">Оставьте свою почту и  получите скидку </p>
    
 
-        <form action="#"  class="cta-form">
+        <form  action="handler.php" method="POST"  class="cta-form">
             
             <div class="input-group footer-input-group ">
               
@@ -1210,9 +1210,10 @@
 
 
 
-  <div  class="modal " >
+  
+  <div  class="modal " id="feedback-modal" >
     <div class="modal-dialog">
-      <a href="" class="modal-close"   >
+      <a href="#" class="modal-close" data-toggle="modal"  data-target="#feedback-modal"   >
         <svg class="close-icon"  width="20" height="20">
           <use href="img/sprite.svg#close"></use>
         </svg>
@@ -1227,17 +1228,27 @@
       <p class="modal-text">
         Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
       </p>
-      <form action="#"  class="modal-form">
-        <label class="input-group-label modal-input-label " for="user-phone">Как с вами удобнее связаться?</label>
+      <form  action="handler.php" method="POST" class="modal-form">
+        <label class=" modal-input-label " for="user-phone">Как с вами удобнее связаться?</label>
         <div class="input-group modal-input-group">
           <input id="modal-user-phone" 
           type="tel" 
-          class="input modal-input" 
-          placeholder=" "
-          required > 
-           
+          class="input-cta input-modal" 
+          name="userphone"
+          placeholder="+7 (___) __ - __ - __"
+          required
+          maxlenght="30">
+          <button class="button cta-button modal-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+          
+          </div>
+          <div class="notify modal-notify">
+            <svg class="check"  width="25" height="25">
+              <use href="img/sprite.svg#check"></use>
+            </svg>
+            <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</p>
           </div>
         </form>
+        
         </div>
         <!-- modal-content  -->
         <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
@@ -1247,7 +1258,39 @@
     </div>
     <!-- modal dialog  -->
   </div>
-  <!-- modal  -->
+
+
+
+
+  <div  class="modal " id="alert-modal" >
+    <div class="modal-dialog">
+      <a href="#" class="modal-close" data-toggle="modal"  data-target="#alert-modal">
+        <svg class="close-icon"  width="20" height="20">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </a>
+      <div class="modal-wrapper">
+        <div class="modal-content">
+          
+        <h2 class="modal-title">Спасибо за заявку</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          
+        </a>
+        <p class="modal-text">
+          Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
+        </p>
+        <button type="reset" class="button cta-button modal-button " data-toggle="modal" data-target="#alert-modal"> Вернуться на главную</button>
+
+       
+      </div>
+      <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
+      
+      </div>
+    </div>
+  </div>
+
+
+
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
