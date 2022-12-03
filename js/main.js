@@ -101,3 +101,97 @@ currentModal.classList.contains("is-open") ? document.body.style.overflow = "hid
 
 });
 
+const forms = document.body.querySelectorAll("form"); //собираем все формы
+forms.forEach((form ) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+});
+validation
+.addField('[name = userphone]', [
+  {
+    rule: "minLength",
+    value: 16,
+    errorMessage: "Укажите телефон",
+
+  },
+  
+  {
+    rule: 'required',
+    errorMessage: "Укажите телефон",
+  },
+])
+  .addField('[name = userphone]', [
+    {
+      rule: 'required',
+      errorMessage: 'Field is required',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Email is invalid!',
+    },
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target; // наша форма
+    const formData = new FormData(thisForm); // данные из нашей формы
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute("action"), {
+       method: thisForm.getAttribute("method"),
+      body: formData, 
+
+      }).then((response) => {
+      if (response.ok  ) {
+        thisForm.reset();
+        if (currentModal = feedbackModal) {
+        currentModal.classList.remove("is-open");
+        currentModal = alertModal;    
+        alertModal.classList.add("is-open");
+        currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+        
+      } else {
+        thisForm.reset();
+        currentModal = alertModal;    
+        currentModal.classList.add("is-open");
+        
+        
+      }
+       
+        modalDialog = currentModal.querySelector(".modal-dialog");
+        /* отслеживаем клик по окну и пустым областям */
+        currentModal.addEventListener("click", (event) => {
+          /* если клик в пустую область (не диалоговое окно) */
+          if (!event.composedPath().includes(modalDialog)) {
+            /* закрываем окно */
+            currentModal.classList.toggle("is-open");
+            
+            currentModal.classList.contains("is-open") ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+          }
+          
+          
+        });
+        
+      } else {
+        alert( " Ошибка. Текст ошибки: " .response.statusText);
+      }
+
+      });
+    };
+    ajaxSend(formData);
+  });
+
+});
+
+
+var element = document.getElementById('modal-user-phone');
+var maskOptions = {
+    mask: '+7(000)000-00-00',
+    lazy: true
+} 
+var mask = new IMask(element, maskOptions);
+
+var element = document.getElementById('user-phone');
+var maskOptions = {
+    mask: '+7(000)000-00-00',
+    lazy: true
+} 
+var mask = new IMask(element, maskOptions);
+

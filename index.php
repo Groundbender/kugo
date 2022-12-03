@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <title>Kugo</title>
 </head>
 <body>
@@ -173,7 +174,13 @@
         </form>
         <div class="header-basket-wrapper">
          <a href="#" class="navbar-icon">
-         <img src="img/scales.png" width="20" height="20" alt="" class="scales">
+         <picture>
+    <source type="image/webp" srcset="img/scales.webp">
+    <source  type="image/png" srcset="img/scales.png">
+    <img src="img/scales.png" width="20" height="20" alt="" class="scales">
+
+    </picture>
+         
          </a>
          <a href="#" class="navbar-icon">
           <svg class="social-icon"  width="20" height="20">
@@ -276,8 +283,12 @@
   </div>
   <!-- test-drive-content  -->
 
-  
-  <img src="img/test-drive.jpg" alt="test-drive-image" class="test-drive-image">
+  <picture>
+    <source type="image/webp" srcset="img/test-drive.webp">
+    <source  type="image/png" srcset="img/test-drive.jpg">
+    <img src="img/test-drive.jpg" alt="test-drive-image" class="test-drive-image">
+
+    </picture>
 </div>
 <!-- test-drive-wrapper  -->
 </div>
@@ -289,7 +300,13 @@
  
   <div class="container">
 <div class="instruction-wrapper">
-  <img src="img/tutorial.jpg" alt="instruction-image" class="instruction-image">
+<picture>
+    <source type="image/webp" srcset="img/tutorial.webp">
+    <source  type="image/png" srcset="img/tutorial.jpg">
+    <img src="img/tutorial.jpg" alt="instruction-image" class="instruction-image">
+
+    </picture>
+ 
   
   <div class="instruction-content">
     <h2 class="section-title">Научим правильной <br> и безопасной езде в городе вас или вашего ребенка</h2>
@@ -363,7 +380,13 @@
             </svg>  
           </a>
          
-          <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+           
+          <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
         </div>
 
           <div class="card-bottom">
@@ -431,7 +454,13 @@
             </svg>  
           </a>
          
-          <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+          
+          <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
         </div>
 
           <div class="card-bottom">
@@ -499,7 +528,13 @@
             </svg>  
           </a>
          
-          <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+          
+          <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
         </div>
 
           <div class="card-bottom">
@@ -567,7 +602,12 @@
             </svg>  
           </a>
          
-          <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+          <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
         </div>
 
           <div class="card-bottom">
@@ -641,7 +681,12 @@
               </svg>  
             </a>
            
-            <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+            <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
           </div>
   
             <div class="card-bottom">
@@ -709,7 +754,12 @@
               </svg>  
             </a>
            
-            <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+            <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
           </div>
   
             <div class="card-bottom">
@@ -777,7 +827,12 @@
               </svg>  
             </a>
            
-            <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+            <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
           </div>
   
             <div class="card-bottom">
@@ -844,8 +899,14 @@
                 <use href="img/sprite.svg#scales-card"></use>
               </svg>  
             </a>
+            <picture>
+    <source type="image/webp" srcset="img/scooter-card.webp">
+    <source  type="image/png" srcset="img/scooter-card.png">
+    <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
+
+    </picture>
+              
            
-            <img src="img/scooter-card.png" alt="scooter photo" class="card-image">
           </div>
   
             <div class="card-bottom">
@@ -939,25 +1000,25 @@
       <div class="cta-content">
          <h2 class="section-title сta-title">Нет нужной модели, которую хотите протестировать?</h2>
         
-        <form  action="handler.php" method="POST"  class="cta-form"></form>
+        <form action="handler.php" method="POST"  class="cta-form">
         
 
        <p class="cta-form-text">
           Оставьте заявку, и менеджер подберет нужный самокат
         </p>
         
-
         <div class="input-group cta-input-group ">
           
-        <input id="user-phone" 
-        type="tel" 
+          <input name= "userphone"
+           id="user-phone" 
+          
+          type="tel" 
         class="input-cta" 
-        name="userphone"
         placeholder="+7 (___) __ - __ - __"
         required
         maxlenght="30">
         
-        <button class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
          
         </div>
        
@@ -967,7 +1028,7 @@
         <svg class="check"  width="25" height="25">
           <use href="img/sprite.svg#check"></use>
         </svg>
-        <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</p>
+        <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="#" class="policy-link"> политикой конфиденциальности</a></p>
       </div>
 
     </div>
@@ -984,17 +1045,16 @@
         <p class="footer-cta-text-mobile">Оставьте свою почту и  получите скидку </p>
    
 
-        <form  action="handler.php" method="POST"  class="cta-form">
+        <form  action="handler-mail.php" method="POST"  class="cta-form">
             
             <div class="input-group footer-input-group ">
               
-            <input id="user-email" 
+            <input id="user-mail" 
             type="email" 
             class="input-footer" 
             name="usermail"
-            placeholder="Введите Ваш email"
-            pattern=".+@globex\.com"
             required
+            placeholder="Введите Ваш email"
             >
             
             <button class=" footer-cta-button"><span class=" footer-button-text">Подписаться</span></button>
@@ -1117,7 +1177,7 @@
 
 
           <div class="social-wrapper">
-            <div class="social-block">
+            <a href="#" class="social-block">
               <svg class="social-icon"  width="20" height="20">
                 <use href="img/sprite.svg#vk"></use>
               </svg>
@@ -1125,8 +1185,8 @@
                 <p class="social-media-text">Вконтакте</p>
                 <span class="social-media-description">3 300</span>
               </div>
-            </div>
-            <div class="social-block">
+            </a>
+            <a href="#" class="social-block">
               <svg class="social-icon"  width="20" height="20">
                 <use href="img/sprite.svg#yb"></use>
               </svg>
@@ -1134,8 +1194,8 @@
                 <p class="social-media-text">YouTube</p>
                 <span class="social-media-description">3 603</span>
               </div>
-            </div>
-            <div class="social-block">
+            </a>
+            <a href="#" class="social-block">
               <svg class="social-icon"  width="20" height="20">
                 <use href="img/sprite.svg#tg-blue"></use>
               </svg>
@@ -1143,7 +1203,7 @@
                 <p class="social-media-text">Telegram</p>
                 <span class="social-media-description">432</span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -1229,29 +1289,34 @@
         Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
       </p>
       <form  action="handler.php" method="POST" class="modal-form">
-        <label class=" modal-input-label " for="user-phone">Как с вами удобнее связаться?</label>
+        <label class=" modal-input-label " for="modal-user-phone">Как с вами удобнее связаться?</label>
         <div class="input-group modal-input-group">
-          <input id="modal-user-phone" 
+          <input name="userphone" 
+          id="modal-user-phone" 
           type="tel" 
           class="input-cta input-modal" 
-          name="userphone"
           placeholder="+7 (___) __ - __ - __"
           required
           maxlenght="30">
-          <button class="button cta-button modal-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+          <button type="submit" class="button cta-button modal-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
           
           </div>
           <div class="notify modal-notify">
             <svg class="check"  width="25" height="25">
               <use href="img/sprite.svg#check"></use>
             </svg>
-            <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</p>
+            <p class="notify-text modal-notify">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
           </div>
         </form>
         
         </div>
         <!-- modal-content  -->
-        <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
+        <picture>
+    <source type="image/webp" srcset="img/modal-woman.webp">
+    <source  type="image/png" srcset="img/modal-woman.png">
+    <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
+
+    </picture>
       </div>
       <!-- modal-wrapper  -->
       
@@ -1279,18 +1344,22 @@
         <p class="modal-text">
           Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
         </p>
-        <button type="reset" class="button cta-button modal-button " data-toggle="modal" data-target="#alert-modal"> Вернуться на главную</button>
+        <button type="reset" class="button cta-button modal-button " data-toggle="modal" data-target="#alert-modal"> <span class="button-text cta-button-text">Вернуться на главную</span></button>
 
        
-      </div>
-      <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
+      </div> 
+      <picture>
+    <source type="image/webp" srcset="img/modal-woman.webp">
+    <source  type="image/png" srcset="img/modal-woman.png">
+    <img src="img/modal-woman.jpg" alt="modal-woman-img" class="modal-woman">
+
+    </picture>
       
       </div>
     </div>
   </div>
 
-
-
+  <script src="https://unpkg.com/imask"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>

@@ -103,6 +103,7 @@ font-family: 'Jost', sans-serif;
   border-radius: .3125rem;
   width: 7.125rem;
   height: 2.5rem;
+  cursor: pointer;
 }
 .header-button {
   display: flex;
@@ -737,6 +738,13 @@ input[type=tel]::placeholder {
   
 
 }
+.policy-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #282739;
+}
 .footer-cta {
   height: 6.0625rem;
   width: 100vw;
@@ -957,6 +965,7 @@ text-decoration: none;
     gap: .8125rem;
     align-items: center;
     padding: .3125rem .75rem ;
+    text-decoration: none;
 }
 .social-media-text {
   font-style: normal;
@@ -1117,9 +1126,28 @@ text-decoration: none;
 .modal-notify {
   max-width: 228px;
 }
+.policy-link-mobile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
 .modal-woman {
   align-self: center;
   margin-top: 8px;
+}
+.input.is-invalid {
+  border: 1px solid red;
+}
+.input-cta:focus {
+  border: 1px solid  orange;
+}
+
+.input-search:focus {
+  border: 1px solid orange;
+}
+.input-footer:focus {
+  border: 1px solid orange;
 }
 
 
@@ -1129,7 +1157,75 @@ text-decoration: none;
 
 
 
-
+@media (hover: hover)  {
+  .navbar-link:hover {
+    color: orange;
+  }
+  .navbar-logo-link:hover {
+    border-bottom: 1px solid orange;
+  }
+  .header-button:hover .button-line {
+    background-color: orange;
+  }
+  .header-button:hover .button-text {
+    color: orange;
+  }
+  .header-button:hover  {
+    color: orange;
+  }
+  .main-button:hover .main-button-text {
+    color: orange;
+  }
+  .card-button:hover .card-button-text {
+    color: orange;
+  }
+  .card-icon:hover {
+    border: 1px solid orange;
+  }
+  .button:hover .button-text {
+    color: orange;
+  }
+  .footer-cta-button:hover .footer-button-text {
+    color: orange;
+  }
+  .footer-menu-link:hover {
+    color: orange;
+  }
+  .footer-phone:hover {
+    color: orange;
+  }
+  .footer-call:hover {
+    color: orange;
+  }
+  .requisite:hover, .policy:hover {
+    color: orange;
+  }
+  .footer-logo-link:hover {
+    border-bottom: 1px solid orange;
+  }
+  .navbar-phone:hover {
+    color: orange
+  }
+  .basket-link:hover .basket-link-text {
+    color: orange;
+  }
+  .social-block:hover {
+    border: 1px solid orange;
+  }
+  .google-play-link:hover, .appstore-link:hover {
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+  
+  .navbar-icon:hover {
+    border-bottom: 1px solid orange;
+  }
+  .policy-link:hover {
+    color: orange;
+  }
+  
+ 
+}
 @media(min-width: 1650px) {
   .container {
     width: 90rem;
@@ -1174,6 +1270,9 @@ text-decoration: none;
     gap: 300px
   }
   .footer-menu-contacts-container {
+    justify-content: space-between;
+  }
+  .header-nav-wrapper {
     justify-content: space-between;
   }
 }
@@ -1449,6 +1548,9 @@ text-decoration: none;
 }
 .footer-policy-wrapper {
   gap: 0.75rem;
+}
+.modal-woman {
+  display: none;
 }
 
 
