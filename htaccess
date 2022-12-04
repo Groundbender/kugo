@@ -10,4 +10,5 @@
   ExpiresByType image/webp "access plus 2 month"
   ExpiresByType image/jpg "access plus 2 month"
   ExpiresByType image/png "access plus 2 month"
+  Redirect 301 /http://groundbender.ru/
 </IfModule>
