@@ -112,7 +112,7 @@ font-display: swap ;
   gap: .8125rem;
   padding-left: .9375rem;
   margin-right: 1.25rem;
-  margin-top: -.375rem;
+  margin-top: -3px;
 }
 
 .navbar-button-lines-wrapper {
@@ -1154,9 +1154,9 @@ text-decoration: none;
   margin-top: 20px;
 }
 
-/* .input-cta:focus {
+.input-cta:focus {
   border: 1px solid  orange;
-} */
+}
 
 .input-search:focus {
   border: 1px solid orange;
@@ -1169,7 +1169,7 @@ text-decoration: none;
 }
 
 input.is-invalid {
-  border: 1px solid red;
+  border: 1px solid red !important;
   position: relative;
   
 }
@@ -1641,6 +1641,9 @@ label span {
 .modal-woman {
   display: none;
 }
+.cards-wrapper {
+  gap: 0px;
+}
 
 
 }
@@ -1679,6 +1682,7 @@ border-radius: 10px;
     .test-drive-content {
       max-width: 100%;
     }
+   
     .instruction-wrapper {
       flex-direction: column-reverse;
 
@@ -1782,6 +1786,9 @@ border-radius: 10px;
     font-size: 2rem;
     line-height: 160%;
   }
+  .instruction {
+    margin-bottom: 30rem;
+}
   
   .section-description {
     font-size: 1.2rem;
@@ -1823,7 +1830,7 @@ border-radius: 10px;
   flex-direction: row;
 }
 .cta {
-  height: 38rem;
+  height: 34rem;
   padding: 0;
 }
 .cta-input-group {
@@ -1866,6 +1873,9 @@ input[type=email]::placeholder {
 .modal-button {
   width: 100%;
 }
+.test-drive {
+  margin-bottom: 30rem;
+}
 }
 @media(max-width: 380px) {
   .header-basket-wrapper {
@@ -1882,7 +1892,7 @@ input[type=email]::placeholder {
       width: 80%;
   }
   .instruction {
-    margin-bottom: 40rem;
+    margin-bottom: 27rem;
 }
 .main {
   width: 100vw;

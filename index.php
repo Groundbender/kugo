@@ -375,7 +375,7 @@
         
         <div class="card-top">
           <a href="#" class="card-icon card-icon-light">
-            <svg class="section-icon"  width="20" height="20">
+            <svg class="card-bottom-icon"  width="20" height="20">
               <use href="img/sprite.svg#scales-card"></use>
             </svg>  
           </a>
@@ -393,28 +393,28 @@
             <h4 class=" card-title">Kugoo Kirin M4</h4>
             <ul class="card-description-wrapper">
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#accum"></use>
                 </svg>
                 <p class="card-description-text">2000 mAh</p>
               </li>
               
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#speedometer"></use>
                 </svg>
                 <p class="card-description-text">60 км/ч</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#card-light"></use>
                 </svg>
                 <p class="card-description-text">1,2 л.с.</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#timer"></use>
                 </svg>
                 <p class="card-description-text">5 часов</p>
@@ -467,28 +467,28 @@
             <h4 class=" card-title">Kugoo Kirin M4</h4>
             <ul class="card-description-wrapper">
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#accum"></use>
                 </svg>
                 <p class="card-description-text">2000 mAh</p>
               </li>
               
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#speedometer"></use>
                 </svg>
                 <p class="card-description-text">60 км/ч</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#card-light"></use>
                 </svg>
                 <p class="card-description-text">1,2 л.с.</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#timer"></use>
                 </svg>
                 <p class="card-description-text">5 часов</p>
@@ -541,28 +541,28 @@
             <h4 class=" card-title">Kugoo Kirin M4</h4>
             <ul class="card-description-wrapper">
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#accum"></use>
                 </svg>
                 <p class="card-description-text">2000 mAh</p>
               </li>
               
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#speedometer"></use>
                 </svg>
                 <p class="card-description-text">60 км/ч</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#card-light"></use>
                 </svg>
                 <p class="card-description-text">1,2 л.с.</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#timer"></use>
                 </svg>
                 <p class="card-description-text">5 часов</p>
@@ -614,28 +614,28 @@
             <h4 class=" card-title">Kugoo Kirin M4</h4>
             <ul class="card-description-wrapper">
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#accum"></use>
                 </svg>
                 <p class="card-description-text">2000 mAh</p>
               </li>
               
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#speedometer"></use>
                 </svg>
                 <p class="card-description-text">60 км/ч</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#card-light"></use>
                 </svg>
                 <p class="card-description-text">1,2 л.с.</p>
 
               </li>
               <li class="card-description">
-                <svg class="section-icon"  width="18" height="18">
+                <svg class="card-bottom-icon"  width="18" height="18">
                   <use href="img/sprite.svg#timer"></use>
                 </svg>
                 <p class="card-description-text">5 часов</p>
@@ -693,28 +693,28 @@
               <h4 class=" card-title">Kugoo Kirin M4</h4>
               <ul class="card-description-wrapper">
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#accum"></use>
                   </svg>
                   <p class="card-description-text">2000 mAh</p>
                 </li>
                 
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#speedometer"></use>
                   </svg>
                   <p class="card-description-text">60 км/ч</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#card-light"></use>
                   </svg>
                   <p class="card-description-text">1,2 л.с.</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#timer"></use>
                   </svg>
                   <p class="card-description-text">5 часов</p>
@@ -728,12 +728,12 @@
                 </div>
                 <div class="price-icons-wrapper">
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg   width="20" height="20">
                       <use href="img/sprite.svg#card-basket"></use>
                     </svg>
                   </a>
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg   width="20" height="20">
                       <use href="img/sprite.svg#card-heart"></use>
                     </svg>
                   </a>
@@ -766,28 +766,28 @@
               <h4 class=" card-title">Kugoo Kirin M4</h4>
               <ul class="card-description-wrapper">
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#accum"></use>
                   </svg>
                   <p class="card-description-text">2000 mAh</p>
                 </li>
                 
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#speedometer"></use>
                   </svg>
                   <p class="card-description-text">60 км/ч</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#card-light"></use>
                   </svg>
                   <p class="card-description-text">1,2 л.с.</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#timer"></use>
                   </svg>
                   <p class="card-description-text">5 часов</p>
@@ -801,12 +801,12 @@
                 </div>
                 <div class="price-icons-wrapper">
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg  width="20" height="20">
                       <use href="img/sprite.svg#card-basket"></use>
                     </svg>
                   </a>
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg  width="20" height="20">
                       <use href="img/sprite.svg#card-heart"></use>
                     </svg>
                   </a>
@@ -839,28 +839,28 @@
               <h4 class=" card-title">Kugoo Kirin M4</h4>
               <ul class="card-description-wrapper">
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#accum"></use>
                   </svg>
                   <p class="card-description-text">2000 mAh</p>
                 </li>
                 
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#speedometer"></use>
                   </svg>
                   <p class="card-description-text">60 км/ч</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#card-light"></use>
                   </svg>
                   <p class="card-description-text">1,2 л.с.</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#timer"></use>
                   </svg>
                   <p class="card-description-text">5 часов</p>
@@ -874,12 +874,12 @@
                 </div>
                 <div class="price-icons-wrapper">
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg  width="20" height="20">
                       <use href="img/sprite.svg#card-basket"></use>
                     </svg>
                   </a>
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg  width="20" height="20">
                       <use href="img/sprite.svg#card-heart"></use>
                     </svg>
                   </a>
@@ -913,28 +913,28 @@
               <h4 class=" card-title">Kugoo Kirin M4</h4>
               <ul class="card-description-wrapper">
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#accum"></use>
                   </svg>
                   <p class="card-description-text">2000 mAh</p>
                 </li>
                 
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#speedometer"></use>
                   </svg>
                   <p class="card-description-text">60 км/ч</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#card-light"></use>
                   </svg>
                   <p class="card-description-text">1,2 л.с.</p>
   
                 </li>
                 <li class="card-description">
-                  <svg class="section-icon"  width="18" height="18">
+                  <svg class="card-bottom-icon"  width="18" height="18">
                     <use href="img/sprite.svg#timer"></use>
                   </svg>
                   <p class="card-description-text">5 часов</p>
@@ -948,12 +948,12 @@
                 </div>
                 <div class="price-icons-wrapper">
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg   width="20" height="20">
                       <use href="img/sprite.svg#card-basket"></use>
                     </svg>
                   </a>
                   <a href="#" class="card-icon">
-                    <svg class="section-icon"  width="20" height="20">
+                    <svg   width="20" height="20">
                       <use href="img/sprite.svg#card-heart"></use>
                     </svg>
                   </a>
@@ -1308,7 +1308,7 @@
           <label class="cta-label">
         <input type='checkbox'>
           <span></span>
-          <p class="notify-text modal-notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
+          <p class="notify-text modal-notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных <br> и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
           </label  >
           
           </div>

@@ -23,15 +23,15 @@ mMenuToggle.addEventListener("click", (event) => {
 
 const swiper = new Swiper('.swiper', {
   speed: 400,
-  slidesPerView: 3,
-  SpaceBetween: 30, 
+  slidesPerView: 2,
+  SpaceBetween: 10, 
   // Navigation arrows
   navigation: {
     nextEl: '.sliper-button-next',
     prevEl: '.sliper-button-prev',
   },
   breakpoints: {
-    320: {
+    300: {
      
       slidesPerView: 1,
       SpaceBetween: 10, 
@@ -40,6 +40,12 @@ const swiper = new Swiper('.swiper', {
      
         slidesPerView: 2,
         SpaceBetween: 10, 
+      },
+    
+    792: {
+     
+        slidesPerView: 2,
+        SpaceBetween: 30, 
       },
     
      
