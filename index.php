@@ -155,8 +155,8 @@
       <div class="header-nav">
         <div class="container">
           <div class="header-nav-wrapper">
-            <a href="./" class="header-logo">KUGOO</a>
-        <a href="#" class="button header-button">
+            <a href="#" class="header-logo">KUGOO</a>
+        <a href="#catalog" class="button header-button">
          <div class="navbar-button-lines-wrapper">
           <span class="button-line"></span>
           <span class="button-line"></span>
@@ -256,25 +256,25 @@
       <p class="list-description">Тест-драйв поможет:</p>
       <ul class="section-list">
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> <span class="bold-text">Понять</span>  подходит ли вам конкретная модель;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> <span class="bold-text">Испытать</span> самокат в «реальной жизни»;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> <span class="bold-text">Оценить</span> удобство хранения и эксплуатации;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> <span class="bold-text">Узнать</span> реальные характеристики и возможности модели.</p>
@@ -313,31 +313,31 @@
       <p class="list-description">На обучении специалист расскажет:</p>
       <ul class="section-list">
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> Как подготовить самокат к поездке;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> Как «завести» самокат;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> Как вести себя во время поездки и обезопасить себя и окружающих;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> Как складывать и раскладывать электросамокат;</p>
         </li>
         <li class="section-item">
-           <svg class="section-icon"  width="22" height="22">
+           <svg class="section-icon"  >
           <use href="img/sprite.svg#ok"></use>
         </svg>
         <p class="section-text"> Как ухаживать за своим девайсом.</p>
@@ -361,7 +361,7 @@
   
   
 
-<section class="section catalog">
+<section class="section catalog " id="catalog">
   
 
   <div class="container">
@@ -740,7 +740,7 @@
                 </div>
               </div>
              <div class="button-wrapper">
-              <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+              <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
              </div>
             </div>
         </div></div>
@@ -813,7 +813,7 @@
                 </div>
               </div>
              <div class="button-wrapper">
-              <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+              <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
              </div>
             </div>
         </div></div>
@@ -886,7 +886,7 @@
                 </div>
               </div>
              <div class="button-wrapper">
-              <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+              <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
              </div>
             </div>
         </div></div>
@@ -960,7 +960,7 @@
                 </div>
               </div>
              <div class="button-wrapper">
-              <button class="button card-button"><span class="card-button-text">Записаться на тест-драйв</span></button>
+              <button class="button card-button" data-toggle="modal" data-target="#feedback-modal"><span class="card-button-text">Записаться на тест-драйв</span></button>
              </div>
             </div>
         </div></div>
@@ -1000,35 +1000,37 @@
       <div class="cta-content">
          <h2 class="section-title сta-title">Нет нужной модели, которую хотите протестировать?</h2>
         
-        <form action="handler.php" method="POST"  class="cta-form">
+        <form  id="form" action="handler.php" method="POST"  class=" send-phone cta-form ">
         
 
        <p class="cta-form-text">
           Оставьте заявку, и менеджер подберет нужный самокат
         </p>
-        
+          <div class="input-group-wrapper cta-input-group-wrapper">
         <div class="input-group cta-input-group ">
-          
-          <input name= "userphone"
+          <label for="user-phone" class="label"></label>
+          <input name="userphone"
            id="user-phone" 
           
           type="tel" 
         class="input-cta" 
         placeholder="+7 (___) __ - __ - __"
         required
-        maxlenght="30">
-        
-        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
-         
+        maxlength="30">
         </div>
+        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+        </div>
+        
        
       
       </form>
       <div class="notify">
-        <svg class="check"  width="25" height="25">
-          <use href="img/sprite.svg#check"></use>
-        </svg>
-        <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="#" class="policy-link"> политикой конфиденциальности</a></p>
+      <label class="cta-label">
+        <input type='checkbox'>
+          <span></span>
+          <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="#" class="policy-link"> политикой конфиденциальности</a></p>
+          </label>
+        
       </div>
 
     </div>
@@ -1045,8 +1047,8 @@
         <p class="footer-cta-text-mobile">Оставьте свою почту и  получите скидку </p>
    
 
-        <form  action="handler-mail.php" method="POST"  class="cta-form">
-            
+        <form id="form"  action="handler.php" method="POST"  class=" send-mail cta-form ">
+            <div class="footer-input-group-wrapper">
             <div class="input-group footer-input-group ">
               
             <input id="user-mail" 
@@ -1054,11 +1056,11 @@
             class="input-footer" 
             name="usermail"
             required
+            pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$"
             placeholder="Введите Ваш email"
             >
-            
+            </div>
             <button class=" footer-cta-button"><span class=" footer-button-text">Подписаться</span></button>
-             
             </div>
            
           
@@ -1288,7 +1290,7 @@
       <p class="modal-text">
         Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
       </p>
-      <form  action="handler.php" method="POST" class="modal-form">
+      <form  id="form" action="handler.php" method="POST" class=" send-phone modal-form ">
         <label class=" modal-input-label " for="modal-user-phone">Как с вами удобнее связаться?</label>
         <div class="input-group modal-input-group">
           <input name="userphone" 
@@ -1297,15 +1299,18 @@
           class="input-cta input-modal" 
           placeholder="+7 (___) __ - __ - __"
           required
-          maxlenght="30">
+          maxlength="30">
+          </div>
           <button type="submit" class="button cta-button modal-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
           
-          </div>
+      
           <div class="notify modal-notify">
-            <svg class="check"  width="25" height="25">
-              <use href="img/sprite.svg#check"></use>
-            </svg>
-            <p class="notify-text modal-notify">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
+          <label class="cta-label">
+        <input type='checkbox'>
+          <span></span>
+          <p class="notify-text modal-notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
+          </label  >
+          
           </div>
         </form>
         
@@ -1359,9 +1364,9 @@
     </div>
   </div>
 
+  <script src="js/just-validate.production.min.js"></script>
   <script src="https://unpkg.com/imask"></script>
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

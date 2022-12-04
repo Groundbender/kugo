@@ -7,6 +7,7 @@
 
 body {
 font-family: 'Jost', sans-serif;
+font-display: swap ;
 }
 
 .container {
@@ -171,6 +172,7 @@ input[type=search]::placeholder {
   z-index: 1;
   border: 1.5px solid #6F73EE;
   border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 
 .header-basket-wrapper {
@@ -403,6 +405,11 @@ main::before {
   position: absolute;
   left: 30px;
   top: -28px;
+}
+
+.section-icon {
+  width: 22px;
+  height: 22px;
 }
 .cards-wrapper {
   display: flex;
@@ -682,7 +689,7 @@ main::before {
   margin-bottom: 1.25rem;
 
 }
-.input-group {
+.cta-input-group-wrapper {
   display: flex;
   align-items: center;
   gap: 1.25rem
@@ -723,8 +730,6 @@ input[type=tel]::placeholder {
 }
 .notify {
   display: flex;
-  gap: .9375rem;
-  width: 21.25rem;
   margin-top: 1.25rem;
 
 }
@@ -735,7 +740,9 @@ input[type=tel]::placeholder {
   font-size: .75rem;
   line-height: .875rem;
   color: #282739;
-  
+  margin-left: 15px;
+  width: 21.25rem;
+
 
 }
 .policy-link {
@@ -810,6 +817,10 @@ input[type=email]::placeholder {
   text-align: center;
   color: #6F73EE;
 
+}
+.footer-input-group-wrapper {
+  display: flex;
+  gap: 20px
 }
 
 .footer-menu {
@@ -926,7 +937,7 @@ text-decoration: none;
   display: flex;
   justify-content: space-between;
   padding-top: 2.25rem;
-  padding-bottom: 2.125rem;
+  padding-bottom: 1.8rem;
 }
 
 .footer-logo {
@@ -988,7 +999,7 @@ text-decoration: none;
 .footer-bottom-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: .8125rem;
+  padding-top: 18px;
 }
 .footer-policy-wrapper {
   display: flex;
@@ -1011,17 +1022,17 @@ text-decoration: none;
   line-height: 1.25rem;
   color: #282739;
   display: inline-block;
-  margin-left: 2.3125rem;
-  margin-right: .9375rem;
-  
+ 
 
 }
 .payments-wrapper {
   display: flex;
     align-items: center;
-    gap: .3125rem;
+    gap: 15px;
 }
-
+.payment-icons {
+  margin-right: 20px;
+}
 
 
 .modal {
@@ -1041,14 +1052,15 @@ text-decoration: none;
   transform: translateX(0);
   visibility: visible;
   opacity: 1;
+  
 
 }
 
 .modal.is-open .modal-dialog {
   transform: translateY(0);
   opacity: 1;
-  /* max-height: 100vh;
-  overflow: auto; */
+  max-height: 100vh;
+  overflow: auto;
   
 }
 .modal-dialog {
@@ -1123,9 +1135,11 @@ text-decoration: none;
   margin-bottom: 86px;
 
 }
-.modal-notify {
+.modal-notify-text {
   max-width: 228px;
+
 }
+
 .policy-link-mobile {
   font-style: normal;
   font-weight: 400;
@@ -1136,12 +1150,13 @@ text-decoration: none;
   align-self: center;
   margin-top: 8px;
 }
-.input.is-invalid {
-  border: 1px solid red;
+.modal-button {
+  margin-top: 20px;
 }
-.input-cta:focus {
+
+/* .input-cta:focus {
   border: 1px solid  orange;
-}
+} */
 
 .input-search:focus {
   border: 1px solid orange;
@@ -1149,7 +1164,81 @@ text-decoration: none;
 .input-footer:focus {
   border: 1px solid orange;
 }
+.label {
+  position: relative;
+}
 
+input.is-invalid {
+  border: 1px solid red;
+  position: relative;
+  
+}
+input.is-invalid .input[type=email]::placeholder {
+  
+  display: none;  
+
+}
+.input-group {
+  position: relative;
+}
+.cta-input-group .just-validate-error-label {
+  
+  background: #F4F7FB;
+
+  
+} 
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: inherit;
+  transform:translateY(-50%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.modal-input-group .just-validate-error-label {
+  background-color: #fff;
+}
+.footer-input-group .just-validate-error-label {
+top: -10px
+}
+label input {
+  display: none;
+
+}
+label span {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius:2px;
+  padding: 4px 3px;
+  cursor: pointer;
+  display: inline-block;
+
+}
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+  content: '\2714';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #6F73EE;
+
+  
+}
+
+.modal-notify label span{
+  background: #F4F7FB;
+  border-radius: 2px;
+}
+.cta-label {
+  display: flex;
+}
 
 
 
@@ -1213,7 +1302,7 @@ text-decoration: none;
     border: 1px solid orange;
   }
   .google-play-link:hover, .appstore-link:hover {
-    border: 1px solid orange;
+    outline: 1px solid orange;
     border-radius: 5px;
   }
   
@@ -1629,6 +1718,10 @@ border-radius: 10px;
 .footer-cta-button {
   width: 6.75rem;
 }
+.section-icon {
+  width: 30px;
+  height: 30px;
+}
 }
 @media(max-width: 650px) {
   .input-search {
@@ -1682,10 +1775,14 @@ border-radius: 10px;
   }
   .main-title {
     font-size: 1.6rem;
+    line-height: 160%;
+
   }
   .section-title {
     font-size: 2rem;
+    line-height: 160%;
   }
+  
   .section-description {
     font-size: 1.2rem;
     
@@ -1695,7 +1792,10 @@ border-radius: 10px;
 
   }
   .cards-wrapper {
-    gap: 10px;
+    gap: 0px;
+  }
+  .swiper-slidу {
+    min-width: 100%;
   }
   .footer-input-group {
     width: 100%;
@@ -1745,7 +1845,7 @@ input[type=email]::placeholder {
 .section-title {
   font-size: 1.6rem;
 }
-.notify {
+.notify-text {
   width: 100%;
 }
 .input-cta {
@@ -1753,13 +1853,18 @@ input[type=email]::placeholder {
   width: 100%;
 }
 .cta-button {
-  width: 100%;
+
+    width: 50%;
 }
+
 .footer-logo-link {
   display: none;
 }
 .footer-contacts {
   display: none;
+}
+.modal-button {
+  width: 100%;
 }
 }
 @media(max-width: 380px) {
@@ -1771,10 +1876,19 @@ input[type=email]::placeholder {
   }
   .section-item {
     align-items: start;
-    flex-direction: column;
+    gap: 0;
+  }
+  .section-text {
+      width: 80%;
   }
   .instruction {
     margin-bottom: 40rem;
+}
+.main {
+  width: 100vw;
+}
+.modal-dialog {
+  padding: 20px;
 }
 }
 
