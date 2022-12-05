@@ -728,6 +728,10 @@ input[type=tel]::placeholder {
   color: #FFFFFF;
  
 }
+.cta-button-text-mobile {
+  display: none;
+ 
+}
 .notify {
   display: flex;
   margin-top: 1.25rem;
@@ -1139,6 +1143,15 @@ text-decoration: none;
   max-width: 228px;
 
 }
+.modal-button-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  text-align: center;
+  color: #FFFFFF;
+ 
+}
 
 .policy-link-mobile {
   font-style: normal;
@@ -1173,23 +1186,14 @@ input.is-invalid {
   position: relative;
   
 }
-input.is-invalid .input[type=email]::placeholder {
-  
-  display: none;  
 
-}
 .input-group {
   position: relative;
 }
-.cta-input-group .just-validate-error-label {
-  
-  background: #F4F7FB;
 
-  
-} 
 .just-validate-error-label {
   position: absolute;
-  top: 0;
+  top: -7px;
   right: 10px;
   background-color: inherit;
   transform:translateY(-50%);
@@ -1200,11 +1204,9 @@ input.is-invalid .input[type=email]::placeholder {
   display: inline-block;
 }
 
-.modal-input-group .just-validate-error-label {
-  background-color: #fff;
-}
+
 .footer-input-group .just-validate-error-label {
-top: -10px
+top: -8px
 }
 label input {
   display: none;
@@ -1299,7 +1301,7 @@ label span {
     color: orange;
   }
   .social-block:hover {
-    border: 1px solid orange;
+    outline: 1px solid orange;
   }
   .google-play-link:hover, .appstore-link:hover {
     outline: 1px solid orange;
@@ -1876,6 +1878,10 @@ input[type=email]::placeholder {
 .test-drive {
   margin-bottom: 30rem;
 }
+.modal-dialog {
+  padding: 20px;
+  max-width: 350px;
+}
 }
 @media(max-width: 380px) {
   .header-basket-wrapper {
@@ -1897,8 +1903,18 @@ input[type=email]::placeholder {
 .main {
   width: 100vw;
 }
-.modal-dialog {
-  padding: 20px;
+
+.cta-button-text {
+  display: none;
+}
+.cta-button-text-mobile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline;
 }
 }
 

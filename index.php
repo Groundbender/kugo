@@ -1018,7 +1018,7 @@
         required
         maxlength="30">
         </div>
-        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span> <span class="button-text cta-button-text-mobile">Оставить заявку </span></button>
         </div>
         
        
@@ -1301,7 +1301,7 @@
           required
           maxlength="30">
           </div>
-          <button type="submit" class="button cta-button modal-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span></button>
+          <button type="submit" class="button cta-button modal-button"><span class="button-text modal-button-text">Оставить заявку на тест-драйв</span></button>
           
       
           <div class="notify modal-notify">
@@ -1349,7 +1349,7 @@
         <p class="modal-text">
           Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
         </p>
-        <button type="reset" class="button cta-button modal-button " data-toggle="modal" data-target="#alert-modal"> <span class="button-text cta-button-text">Вернуться на главную</span></button>
+        <button type="reset" class="button cta-button modal-button " data-toggle="modal" data-target="#alert-modal"> <span class="button-text modal-button-text">Вернуться на главную</span></button>
 
        
       </div> 
