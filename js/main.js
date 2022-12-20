@@ -142,8 +142,15 @@ validation
       rule: 'required',
       errorMessage: "Укажите телефон",
     },
+    
   ])
-  
+  .addField( "[name = usercheck]" , [
+    {
+      rule: "required",
+      errorMessage: "Поставьте галочку",
+    },
+    
+  ])
   .onSuccess((event) => {
     const thisForm = event.target; // наша форма
     const formData = new FormData(thisForm); // данные из нашей формы

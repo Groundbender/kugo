@@ -173,22 +173,19 @@
           </button>
         </form>
         <div class="header-basket-wrapper">
-         <a href="#" class="navbar-icon">
-         <picture>
-    <source type="image/webp" srcset="img/scales.webp">
-    <source  type="image/png" srcset="img/scales.png">
-    <img src="img/scales.png" width="20" height="20" alt="" class="scales">
-
-    </picture>
+         <a href="#" class="navbar-icon "  >
+         <svg class="header-nav-icon" >
+            <use href="img/sprite.svg#scales"></use>
+          </svg>
          
          </a>
          <a href="#" class="navbar-icon">
-          <svg class="social-icon"  width="20" height="20">
+          <svg class="header-nav-icon" >
             <use href="img/sprite.svg#heart"></use>
           </svg>
          </a>
          <a href="#" class="basket-link">
-          <svg class="social-icon"  width="20" height="20">
+          <svg class="header-nav-icon"  width="20" height="20">
             <use href="img/sprite.svg#basket"></use>
           </svg>
           <span class="basket-link-text">Корзина</span>
@@ -223,7 +220,7 @@
     <div class="main-bottom-wrapper">
     <ul class="main-features">
       <li class="main-features-item">
-         <div class="features-logo">
+         <div class="features-logo ">
           <svg class="features-icon"  width="16" height="16">
             <use href="img/sprite.svg#scooter"></use>
           </svg>
@@ -231,7 +228,7 @@
         <p class="features-text">Поймете, какая <br> модель вам подходит</p>
       </li>
       <li class="main-features-item">
-       <div class="features-logo">
+       <div class="features-logo ">
         <svg class="features-icon"  width="16" height="16">
           <use href="img/sprite.svg#light"></use>
         </svg>
@@ -1018,20 +1015,21 @@
         required
         maxlength="30">
         </div>
-        <button  class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span> <span class="button-text cta-button-text-mobile">Оставить заявку </span></button>
+        <button  type="submit" class="button cta-button"><span class="button-text cta-button-text">Оставить заявку на тест-драйв</span> <span class="button-text cta-button-text-mobile">Оставить заявку </span></button>
         </div>
-        
-       
-      
-      </form>
-      <div class="notify">
+        <div class="notify">
       <label class="cta-label">
-        <input type='checkbox'>
+        <input type='checkbox'
+        name="usercheck">
           <span></span>
           <p class="notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <a href="#" class="policy-link"> политикой конфиденциальности</a></p>
           </label>
         
       </div>
+       
+      
+      </form>
+      
 
     </div>
     </div>
@@ -1306,7 +1304,7 @@
       
           <div class="notify modal-notify">
           <label class="cta-label">
-        <input type='checkbox'>
+        <input type='checkbox'  name="usercheck">
           <span></span>
           <p class="notify-text modal-notify-text">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных <br> и  <a href="#" class="policy-link-mobile">политикой конфиденциальности</a></p>
           </label  >
